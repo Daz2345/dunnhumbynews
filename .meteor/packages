@@ -22,7 +22,6 @@ http
 
 
 meteorhacks:subs-manager
-meteorhacks:npm
 
 aldeed:autoform@5.1.2
 aldeed:collection2
@@ -38,7 +37,6 @@ sacha:spin
 sacha:juice
 chuangbo:marked
 percolatestudio:synced-cron
-npm-container
 matb33:collection-hooks
 djedi:sanitize-html
 rajit:bootstrap3-datepicker
