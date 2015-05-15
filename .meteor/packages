@@ -9,10 +9,8 @@ standard-app-packages
 backbone
 accounts-base
 accounts-password
-accounts-twitter
 spiderable
 email
-accounts-facebook
 service-configuration
 accounts-ui
 reactive-var
@@ -67,7 +65,6 @@ telescope-i18n
 telescope-api
 telescope-datetimepicker
 telescope-theme-base
-telescope-module-share
 telescope-search
 telescope-tags
 telescope-daily
