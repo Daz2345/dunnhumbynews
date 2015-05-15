@@ -19,8 +19,9 @@ reactive-var
 http
 
 # Atmosphere Packages
-
-
+iron:router
+fastclick
+meteorhacks:fast-render
 meteorhacks:subs-manager
 
 aldeed:autoform@5.1.2
@@ -67,15 +68,23 @@ telescope-i18n
 telescope-datetimepicker
 telescope-theme-base
 telescope-module-share
+telescope-api
+telescope-rss
 telescope-search
 telescope-tags
+telescope-theme-hubble
+telescope-email
+telescope-embedly
+telescope-newsletter
 telescope-daily
 telescope-update-prompt
+telescope-kadira
 telescope-notifications
 telescope-singleday
 telescope-invites
 telescope-post-by-feed
 telescope-releases
+telescope-getting-started
 telescope-subscribe-to-posts
 telescope-tagline-banner
 telescope-settings
@@ -86,7 +95,3 @@ telescope-pages
 # Custom Packages
 msavin:mongol
 telescope-theme-dunnhumby
-telescope-api
-meteorhacks:fast-render
-iron:router
-fastclick
