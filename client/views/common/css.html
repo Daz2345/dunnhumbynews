@@ -1,30 +1,71 @@
 <template name="css">
   <style>
-
-      {{elementColors}}
-      
-      body, textarea, input, button, input[type="submit"], input[type="button"]{
-        font-family: {{getSetting 'fontFamily'}};
+    {
+      {
+        elementColors
       }
-
-      body{
-        background: {{getSetting "backgroundCSS"}};
-      }
-
-      .logo-image a{
-        max-height:{{getSetting "logoHeight"}}px;
-        max-width:{{getSetting "logoWidth"}}px;
-      }
-
-      {{hideAuthClass}}
-
-      @media screen and (max-width: 600px) {
-        /* find a way to get rid of this */
-        .post-discuss .icon, .post-discuss .action-count{
-          color: {{getSetting "buttonColor"}};
+    }
+    body,
+    textarea,
+    input,
+    button,
+    input[type="submit"],
+    input[type="button"] {
+      font-family: {
+        {
+          getSetting 'fontFamily'
         }
       }
-
+      ;
+    }
+    body {
+      background: {
+        {
+          getSetting "backgroundCSS"
+        }
+      }
+      ;
+    }
+    .logo-image a {
+      max-height: {
+        {
+          getSetting "logoHeight"
+        }
+      }
+      px;
+      max-width: {
+        {
+          getSetting "logoWidth"
+        }
+      }
+      px;
+    }
+    {
+      {
+        hideAuthClass
+      }
+    }
+    @media screen and (max-width: 600px) {
+      /* find a way to get rid of this */
+      
+      .post-discuss .icon,
+      .post-discuss .action-count {
+        color: {
+          {
+            getSetting "buttonColor"
+          }
+        }
+        ;
+      }
+    }
+    #footer {
+      background: #ffab62;
+      width: 100 %;
+      height: 100 px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
   </style>
-  <link href='{{getSetting 'fontUrl'}}' rel='stylesheet' type='text/css'>
+  <link href='{{getSetting ' fontUrl '}}' rel='stylesheet' type='text/css'>
 </template>
