@@ -197,7 +197,7 @@ _.each(addToPostSchema, function(item){
   postSchemaObject[item.propertyName] = item.propertySchema;
 });
 
-Posts = new Meteor.Collection("posts");
+Posts = new Meteor.Collection("posts", {idGeneration: 'STRING'});
 
 postSchema = new SimpleSchema(postSchemaObject);
 
@@ -325,7 +325,7 @@ submitPost = function (post) {
 
   var defaultProperties = {
     createdAt: new Date(),
-    author: getDisplayNameById(userId),
+    author: getDisplayNameById(userd),
     upvotes: 0,
     downvotes: 0,
     commentCount: 0,
